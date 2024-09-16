@@ -91,7 +91,4 @@ function draw(){
      
     fill(0);
     noStroke();
-    text(mouseX, 100, 100);
-    text(mouseY, 100, 110);
-
 }
