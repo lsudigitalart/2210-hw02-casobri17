@@ -6,6 +6,25 @@ function setup() {
 function draw(){
     background(100);
     
+    //color
+    fill(324, 212, 206);
+    rect(10, 0, 240, 130);
+    fill(5, 16, 145);
+    ellipse(1, 74, 55, 115);
+    ellipse(25, 65, 30, 45);
+    fill(232, 244, 255);
+    ellipse(47, 21, 30, 85);
+    rotate(-45);
+    rect(-7, -8, 22, 80)
+    resetMatrix();
+    ellipse(30, 10, 30, 30);
+    fill(232, 244, 255);
+    rect(320, 0, 80, 100);
+    fill(324, 212, 206);
+    rect(277, 0, 40, 95);
+    ellipse(315, 75, 30, 60)
+    ellipse(315, 0, 20, 20);
+
     //white paneling nonslant
     fill(255, 255, 255);
     noStroke();
@@ -56,6 +75,7 @@ function draw(){
      noFill();
      curve(-5, 62, 10, 132, 60, 60, 200, 200);
      curve(300, 200, 330, 96, 316, 50, 267, 100);
+     curve(500, 600, 320, 0, 320, 45, 270, 330);
 
      //line connections
      strokeWeight(7);
@@ -66,8 +86,9 @@ function draw(){
      line(215, -1, 237, 8);
      strokeWeight(7);
      line(315, 49, 279, 40);
+     strokeWeight(6);
+     line(323, 10, 330, 0);
      
-
     fill(0);
     noStroke();
     text(mouseX, 100, 100);
